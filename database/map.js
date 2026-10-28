@@ -45,5 +45,6 @@ window.dbMap = {
     "1983": ["oscar", "globuldeaur", "bafta", "cannes", "berlin", "venetia", "sundance", "gopo", "tiff"],
     "1982": ["oscar", "globuldeaur", "bafta", "cannes", "berlin", "venetia", "sundance", "gopo", "tiff"],
     "1981": ["oscar", "globuldeaur", "bafta", "cannes", "berlin", "venetia", "sundance", "gopo", "tiff"],
-    "1980": ["oscar", "globuldeaur", "bafta", "cannes", "berlin", "venetia", "sundance", "gopo", "tiff"]
+    "1980": ["oscar", "globuldeaur", "bafta", "cannes", "berlin", "venetia", "sundance", "gopo", "tiff"],
+    "1929": ["oscar", "globuldeaur", "bafta", "cannes", "berlin", "venetia", "sundance", "gopo", "tiff"]
 };
