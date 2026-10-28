@@ -1,161 +1,134 @@
-window.baftaData = {
+window.globuldeaurData = {
     an: 2025,
-    festival: "BAFTA",
+    festival: "Globul de Aur",
     categorii: [
         {
-            nume: "Cel mai bun film",
+            nume: "Cel mai bun film (Dramă)",
             nominalizari: [
-                { film: "Conclave", castigator: true },
-                { film: "Anora", castigator: false },
-                { film: "Emilia Pérez", castigator: false },
-                { film: "A Complete Unknown", castigator: false },
-                { film: "The Brutalist", castigator: false }
+                { film: "Dune: Part Two", castigator: false },
+                { film: "September 5", castigator: false },
+                { film: "Nickel Boys", castigator: false },
+                { film: "Conclave", castigator: false },
+                { film: "The Brutalist", castigator: false },
+                { film: "A Complete Unknown", castigator: false }
             ]
         },
         {
-            nume: "Film britanic remarcabil",
+            nume: "Cel mai bun film (Comedie/Muzical)",
             nominalizari: [
-                { film: "Conclave", castigator: true },
-                { film: "Wallace & Gromit: Vengeance Most Fowl", castigator: false },
-                { film: "Gladiator II", castigator: false }
+                { film: "Emilia Pérez", castigator: true },
+                { film: "Wicked", castigator: false },
+                { film: "The Substance", castigator: false },
+                { film: "A Real Pain", castigator: false },
+                { film: "Anora", castigator: false }
             ]
         },
         {
-            nume: "Cea mai bună regie",
+            nume: "Cel mai bun actor (Dramă)",
             nominalizari: [
-                { film: "The Brutalist", persoana: "Brady Corbet", castigator: true },
-                { film: "Dune: Part Two", persoana: "Denis Villeneuve", castigator: false },
-                { film: "Anora", persoana: "Sean Baker", castigator: false },
-                { film: "Conclave", persoana: "Edward Berger", castigator: false },
-                { film: "The Substance", persoana: "Coralie Fargeat", castigator: false },
-                { film: "Emilia Pérez", persoana: "Jacques Audiard", castigator: false }
-            ]
-        },
-        {
-            nume: "Cel mai bun actor în rol principal",
-            nominalizari: [
-                { film: "The Brutalist", persoana: "Adrien Brody", castigator: true },
+                { film: "A Different Man", persoana: "Sebastian Stan", castigator: true },
                 { film: "A Complete Unknown", persoana: "Timothée Chalamet", castigator: false },
-                { film: "Sing Sing", persoana: "Colman Domingo", castigator: false },
-                { film: "Slow Horses", persoana: "Gary Oldman", castigator: false },
+                { film: "Queer", persoana: "Daniel Craig", castigator: false },
+                { film: "The Brutalist", persoana: "Adrien Brody", castigator: false },
                 { film: "The Apprentice", persoana: "Sebastian Stan", castigator: false },
+                { film: "Sing Sing", persoana: "Colman Domingo", castigator: false },
                 { film: "Conclave", persoana: "Ralph Fiennes", castigator: false }
             ]
         },
         {
-            nume: "Cea mai bună actriță în rol principal",
+            nume: "Cea mai bună actriță (Dramă)",
             nominalizari: [
-                { film: "Anora", persoana: "Mikey Madison", castigator: true },
-                { film: "Emilia Pérez", persoana: "Karla Sofía Gascón", castigator: false },
+                { film: "Ainda estou aqui", persoana: "Fernanda Torres", castigator: true },
+                { film: "Maria", persoana: "Angelina Jolie", castigator: false }
+            ]
+        },
+        {
+            nume: "Cel mai bun actor (Comedie/Muzical)",
+            nominalizari: [
+                { film: "A Real Pain", persoana: "Jesse Eisenberg", castigator: false }
+            ]
+        },
+        {
+            nume: "Cea mai bună actriță (Comedie/Muzical)",
+            nominalizari: [
+                { film: "The Substance", persoana: "Demi Moore", castigator: true },
+                { film: "Anora", persoana: "Mikey Madison", castigator: false },
                 { film: "Wicked", persoana: "Cynthia Erivo", castigator: false },
-                { film: "The Substance", persoana: "Demi Moore", castigator: false }
+                { film: "Emilia Pérez", persoana: "Karla Sofía Gascón", castigator: false }
             ]
         },
         {
             nume: "Cel mai bun actor în rol secundar",
             nominalizari: [
                 { film: "A Real Pain", persoana: "Kieran Culkin", castigator: true },
-                { film: "The Apprentice", persoana: "Jeremy Strong", castigator: false },
-                { film: "Slow Horses", persoana: "Jonathan Pryce", castigator: false },
-                { film: "Slow Horses", persoana: "Christopher Chung", castigator: false },
                 { film: "A Complete Unknown", persoana: "Edward Norton", castigator: false },
                 { film: "Anora", persoana: "Yura Borisov", castigator: false },
-                { film: "Sing Sing", persoana: "Clarence Maclin", castigator: false },
-                { film: "The Brutalist", persoana: "Guy Pearce", castigator: false }
+                { film: "Gladiator II", persoana: "Denzel Washington", castigator: false },
+                { film: "The Brutalist", persoana: "Guy Pearce", castigator: false },
+                { film: "The Apprentice", persoana: "Jeremy Strong", castigator: false }
             ]
         },
         {
             nume: "Cea mai bună actriță în rol secundar",
             nominalizari: [
-                { film: "Emilia Pérez", persoana: "Zoe Saldana", castigator: true },
+                { film: "Emilia Pérez", persoana: "Zoe Saldaña", castigator: true },
                 { film: "The Brutalist", persoana: "Felicity Jones", castigator: false },
+                { film: "Conclave", persoana: "Isabella Rossellini", castigator: false },
+                { film: "The Substance", persoana: "Margaret Qualley", castigator: false },
                 { film: "Emilia Pérez", persoana: "Selena Gomez", castigator: false },
-                { film: "Wicked", persoana: "Ariana Grande", castigator: false },
-                { film: "Conclave", persoana: "Isabella Rossellini", castigator: false }
+                { film: "Wicked", persoana: "Ariana Grande", castigator: false }
             ]
         },
         {
-            nume: "Scenariu (Original & Adaptat)",
+            nume: "Cel mai bun regizor / Scenariu",
             nominalizari: [
-                { film: "A Real Pain", persoana: "Jesse Eisenberg (Original)", castigator: true },
-                { film: "Conclave", persoana: "Peter Straughan (Adaptat)", castigator: true },
-                { film: "The Brutalist", castigator: false },
-                { film: "The Substance", castigator: false },
-                { film: "Emilia Pérez", castigator: false },
-                { film: "Sing Sing", castigator: false },
-                { film: "Nickel Boys", castigator: false }
+                { film: "Anora", persoana: "Sean Baker", castigator: false },
+                { film: "The Substance", persoana: "Coralie Fargeat", castigator: false },
+                { film: "Emilia Pérez", persoana: "Jacques Audiard", castigator: false },
+                { film: "The Brutalist", persoana: "Brady Corbet, Mona Fastvold", castigator: false },
+                { film: "Conclave", persoana: "Peter Straughan", castigator: false },
+                { film: "A Real Pain", persoana: "Jesse Eisenberg", castigator: false }
             ]
         },
         {
-            nume: "Imagine & Montaj",
+            nume: "Cel mai bun film străin & Animație",
             nominalizari: [
-                { film: "The Brutalist", persoana: "Lol Crawley (Imagine)", castigator: true },
-                { film: "Slow Horses", persoana: "Robert Frost (Montaj)", castigator: true },
-                { film: "Conclave", persoana: "Nick Emerson (Montaj)", castigator: true },
-                { film: "Nosferatu", castigator: false },
-                { film: "Dune: Part Two", castigator: false },
-                { film: "Anora", castigator: false }
+                { film: "Emilia Pérez", castigator: true },
+                { film: "Flow", castigator: true },
+                { film: "Ainda estou aqui", castigator: false },
+                { film: "Vermiglio", castigator: false },
+                { film: "Pigen med nålen", castigator: false },
+                { film: "The Seed of the Sacred Fig", castigator: false },
+                { film: "The Wild Robot", castigator: false },
+                { film: "Memoir of a Snail", castigator: false },
+                { film: "Wallace & Gromit: Vengeance Most Fowl", castigator: false },
+                { film: "Inside Out 2", castigator: false }
             ]
         },
         {
-            nume: "Sunet & Efecte Vizuale",
+            nume: "Box Office & Muzică",
             nominalizari: [
-                { film: "Dune: Part Two", castigator: true },
-                { film: "Slow Horses", castigator: true },
+                { film: "Wicked", castigator: true },
+                { film: "Emilia Pérez", persoana: "Camille, Jacques Audiard, Clément Ducol (Song)", castigator: true },
+                { film: "The Brutalist", persoana: "Daniel Blumberg (Score)", castigator: false },
+                { film: "Dune: Part Two", persoana: "Hans Zimmer (Score)", castigator: false },
+                { film: "Alien: Romulus", castigator: false },
                 { film: "Gladiator II", castigator: false },
-                { film: "Wicked", castigator: false },
-                { film: "The Substance", castigator: false },
+                { film: "The Wild Robot", castigator: false },
                 { film: "Better Man", castigator: false }
             ]
         },
         {
-            nume: "Scenografie & Costume",
+            nume: "Televiziune (Seriale & Mini-serii)",
             nominalizari: [
-                { film: "Wicked", persoana: "Scenografie", castigator: true },
-                { film: "Wicked", persoana: "Costume", castigator: true },
-                { film: "The Brutalist", castigator: false },
-                { film: "Nosferatu", castigator: false },
-                { film: "Conclave", castigator: false },
-                { film: "A Complete Unknown", castigator: false }
-            ]
-        },
-        {
-            nume: "Machiaj & Hairstyle",
-            nominalizari: [
-                { film: "The Substance", castigator: true },
-                { film: "Nosferatu", castigator: false },
-                { film: "Dune: Part Two", castigator: false },
-                { film: "Emilia Pérez", castigator: false },
-                { film: "Wicked", castigator: false }
-            ]
-        },
-        {
-            nume: "Coloană Sonoră & Film Străin",
-            nominalizari: [
-                { film: "The Brutalist", persoana: "Daniel Blumberg", castigator: true },
-                { film: "Emilia Pérez", castigator: true },
-                { film: "The Seed of the Sacred Fig", castigator: false },
-                { film: "Ainda estou aqui", castigator: false },
-                { film: "Nosferatu", castigator: false },
-                { film: "Slow Horses", castigator: false }
-            ]
-        },
-        {
-            nume: "Animație & Documentar",
-            nominalizari: [
-                { film: "Flow", castigator: false },
-                { film: "The Wild Robot", castigator: false },
-                { film: "Inside Out 2", castigator: false },
-                { film: "No Other Land", castigator: false },
-                { film: "Black Box Diaries", castigator: false },
-                { film: "Wallace & Gromit: Vengeance Most Fowl", castigator: false }
-            ]
-        },
-        {
-            nume: "Categorii Debut & Scurtmetraj",
-            nominalizari: [
-                { film: "Sister Midnight", persoana: "Karan Kandhari (Debut)", castigator: false },
-                { film: "Wander to Wonder", castigator: false }
+                { film: "Hacks", castigator: true },
+                { film: "The Bear", persoana: "Jeremy Allen White", castigator: true },
+                { film: "Hacks", persoana: "Jean Smart", castigator: true },
+                { film: "Only Murders in the Building", persoana: "Steve Martin, Martin Short", castigator: false },
+                { film: "Nobody Wants This", persoana: "Adam Brody", castigator: false },
+                { film: "Slow Horses", persoana: "Gary Oldman", castigator: false },
+                { film: "The Diplomat", persoana: "Keri Russell", castigator: false },
+                { film: "Monster", persoana: "Cooper Koch", castigator: false }
             ]
         }
     ]
